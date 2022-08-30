@@ -14,6 +14,36 @@ body {
   font-family: sans-serif, helvetica, arial;
 }
 
+.bg-image {
+  background-image: url(/img/earth-g7ebe9f9b9_1920.jpg);
+  object-position: center;
+}
+
+.form-bg {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-use-ok {
+  --bs-btn-color: #151740;
+  --bs-btn-border-color: #151740;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #151740;
+  --bs-btn-hover-border-color: #151740;
+  --bs-btn-focus-shadow-rgb: 25, 135, 84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #151740;
+  --bs-btn-active-border-color: #151740;
+  --bs-btn-active-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #151740;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #151740;
+}
+
+.link-hover-prim {
+  background-color: #151740;
+  color: #ffffff;
+}
+
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
