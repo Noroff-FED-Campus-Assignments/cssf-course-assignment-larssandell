@@ -1,6 +1,17 @@
 @charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
 body {
-  background-color: red;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif, helvetica, arial;
 }
 
 /*!
