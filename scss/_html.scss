@@ -12,6 +12,7 @@ body {
 body {
     font-family: sans-serif, helvetica, arial;
 }
+
 $form-white: rgba(255, 255, 255, 0.5);
 
 .bg-image {
@@ -46,4 +47,12 @@ $form-white: rgba(255, 255, 255, 0.5);
 .link-hover-prim {
     background-color: #151740;
     color: #ffffff;
+}
+.navbar-nav {
+    flex-direction: row-reverse;
+}
+.nav-right {
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
 }
