@@ -54,6 +54,25 @@ body {
   flex-wrap: wrap;
 }
 
+.panel-body img {
+  height: 60px;
+  width: auto;
+}
+
+.panel-body ul {
+  border: 1px solid black;
+}
+
+.panel-body li {
+  list-style-type: none;
+  border: 1px solid gray;
+  margin-bottom: 5px;
+}
+
+.end-feed {
+  margin-bottom: 50px;
+}
+
 /*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
